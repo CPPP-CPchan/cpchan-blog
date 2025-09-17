@@ -1,0 +1,103 @@
+/* メインサイトのカラーテーマを適用 */
+:root {
+  --main-color: #7b5db8;
+  --accent-color: #c5b3e6;
+  --bg-color: #f8f8f8;
+  --text-color: #333;
+}
+
+/* ヘッダー部分をメインサイトに合わせる */
+.header-wrap {
+  background: var(--main-color) !important;
+}
+
+.logo a, .header .logo a {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* ナビゲーションメニューの統一 */
+#menu a {
+  color: white !important;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+#menu a:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* リンクカラーの統一 */
+a {
+  color: var(--main-color) !important;
+}
+
+a:hover {
+  color: var(--accent-color) !important;
+}
+
+/* ボタンスタイルの統一 */
+.btn, .pagination .page-link {
+  background: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+  border-radius: 5px;
+}
+
+.btn:hover, .pagination .page-link:hover {
+  background: var(--accent-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* 見出しの装飾をメインサイトに合わせる */
+.post-content h2 {
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+/* コードブロックの装飾 */
+.highlight {
+  border-left: 3px solid var(--main-color);
+}
+
+/* タグ・カテゴリのスタイル */
+.terms-tags a, .post-tags a {
+  background: var(--accent-color) !important;
+  color: var(--text-color) !important;
+  border-radius: 15px;
+  padding: 4px 12px;
+  margin: 2px;
+  text-decoration: none;
+}
+
+.terms-tags a:hover, .post-tags a:hover {
+  background: var(--main-color) !important;
+  color: white !important;
+}
+
+/* フッターの統一 */
+.footer {
+  background: #ddd;
+  font-size: 0.9em;
+}
+
+/* ダークモード対応（必要に応じて） */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+  }
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+  #menu {
+    background: var(--main-color) !important;
+  }
+  
+  #menu a {
+    padding: 10px 14px;
+    white-space: nowrap;
+  }
+}
