@@ -3,7 +3,33 @@
   --main-color: #7b5db8;
   --accent-color: #c5b3e6;
   --bg-color: #f8f8f8;
-  --text-color: #333;
+  --text-color: #2c2c2c;
+  --text-secondary: #666;
+  --border-color: #e1e1e1;
+}
+
+/* 文字の読みやすさ改善 */
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic Medium", "Meiryo", "Segoe UI", sans-serif;
+  line-height: 1.8;
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+/* 記事本文の読みやすさ向上 */
+.post-content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.post-content p {
+  margin-bottom: 1.5em;
+}
+
+/* メタ情報の文字色調整 */
+.post-meta, .post-footer {
+  color: var(--text-secondary);
 }
 
 /* ヘッダー部分をメインサイトに合わせる */
