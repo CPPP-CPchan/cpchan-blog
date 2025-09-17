@@ -1,0 +1,82 @@
+baseURL: 'https://blog.cppp-cpchan.org'
+languageCode: 'ja'
+title: 'しびちゃんのブログ'
+theme: 'PaperMod'
+
+# メインサイトに合わせた設定
+params:
+  # サイト情報
+  author: "しびちゃん"
+  description: "猫耳VTuber、ゆるっとゲームやってます"
+  
+  # デザイン設定
+  defaultTheme: "light"
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  
+  # メインサイトのナビゲーションに合わせた設定
+  homeInfoParams:
+    Title: "しびちゃんのブログ"
+    Content: "技術やゲーム、日常のことを書いていきます"
+  
+  # ソーシャルリンク（メインサイトと統一）
+  socialIcons:
+    - name: "YouTube"
+      url: "https://youtube.com/@your-channel"
+    - name: "Twitter"
+      url: "https://twitter.com/your-account"
+    - name: "home"
+      url: "https://www.cppp-cpchan.org"
+      title: "メインサイト"
+
+# メニュー設定（メインサイトのナビゲーションと統一感を持たせる）
+menu:
+  main:
+    - identifier: home
+      name: "ホーム"
+      url: /
+      weight: 10
+    - identifier: posts
+      name: "記事"
+      url: /posts/
+      weight: 20
+    - identifier: categories
+      name: "カテゴリ"
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: "タグ"
+      url: /tags/
+      weight: 40
+    - identifier: main-site
+      name: "メインサイト"
+      url: "https://www.cppp-cpchan.org"
+      weight: 50
+
+# マークダウン設定
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+
+# 出力設定
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# タクソノミー（カテゴリとタグ）
+taxonomies:
+  category: categories
+  tag: tags
