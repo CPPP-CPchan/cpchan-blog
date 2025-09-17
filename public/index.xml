@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>しびちゃんのブログ</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on しびちゃんのブログ</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 01 Jan 2024 10:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>しぴちゃんブログ開設</title>
+      <link>http://localhost:1313/posts/%E3%81%97%E3%81%B4%E3%81%A1%E3%82%83%E3%82%93%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/</link>
+      <pubDate>Mon, 01 Jan 2024 10:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/posts/%E3%81%97%E3%81%B4%E3%81%A1%E3%82%83%E3%82%93%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/</guid>
+      <description>Hugo &#43; Obsidianでブログを始めました</description>
+    </item>
+  </channel>
+</rss>
