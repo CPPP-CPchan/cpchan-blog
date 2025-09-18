@@ -32,17 +32,83 @@ body {
   color: var(--text-secondary);
 }
 
+/* プロフィール画像とヘッダーのスタイリング */
+.profile {
+  background: linear-gradient(135deg, var(--main-color) 0%, var(--accent-color) 100%);
+  border-radius: 15px;
+  padding: 40px;
+  margin: 20px 0;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(123, 93, 184, 0.2);
+}
+
+.profile_inner {
+  color: white;
+}
+
+.profile .profile_inner h1 {
+  color: white !important;
+  margin-bottom: 10px;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.profile .profile_inner p {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 1.1em;
+}
+
+.profile img {
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
 /* ヘッダー部分をメインサイトに合わせる */
 .header-wrap {
   background: var(--main-color) !important;
+  box-shadow: 0 2px 8px rgba(123, 93, 184, 0.3);
 }
 
 .logo a, .header .logo a {
   color: white !important;
   font-weight: bold;
+  font-size: 1.3em;
 }
 
-/* ナビゲーションメニューの統一 */
+/* 記事カードのスタイリング */
+.post-entry {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(123, 93, 184, 0.15);
+}
+
+.entry-header .entry-title {
+  color: var(--text-color) !important;
+  font-size: 1.4em;
+  margin-bottom: 8px;
+}
+
+.entry-content {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.entry-footer {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid var(--border-color);
+}
 #menu a {
   color: white !important;
   padding: 8px 12px;
