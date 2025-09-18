@@ -1,12 +1,12 @@
 baseURL: 'https://blog.cppp-cpchan.org'
 languageCode: 'ja'
-title: 'しびちゃんのブログ'
+title: 'しぴちゃんのブログ'
 theme: 'PaperMod'
 
 # メインサイトに合わせた設定
 params:
   # サイト情報
-  author: "しびちゃん"
+  author: "しぴちゃん"
   description: "猫耳VTuber、ゆるっとゲームやってます"
   
   # デザイン設定
@@ -22,7 +22,7 @@ params:
   # ヘッダー画像とホーム設定
   profileMode:
     enabled: true
-    title: "しびちゃんのブログ"
+    title: "しぴちゃんのブログ"
     subtitle: "ゲーム、配信、日常のことを書いていきます"
     imageUrl: "/images/cpchan.png"
     imageWidth: 120
@@ -32,9 +32,9 @@ params:
   # ソーシャルリンク（メインサイトと統一）
   socialIcons:
     - name: "YouTube"
-      url: "https://youtube.com/@your-channel"
-    - name: "Twitter"
-      url: "https://twitter.com/your-account"
+      url: "https://youtube.com/@CP-chan"
+    - name: "X/Twitter"
+      url: "https://x.com/CPPP_CPchan"
     - name: "home"
       url: "https://www.cppp-cpchan.org"
       title: "メインサイト"
