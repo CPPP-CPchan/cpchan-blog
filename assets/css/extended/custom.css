@@ -10,7 +10,13 @@
 
 /* 文字の読みやすさ改善 */
 body {
-  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic Medium", "Meiryo", "Segoe UI", sans-serif;
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+
   line-height: 1.8;
   color: var(--text-color);
   font-weight: 400;
