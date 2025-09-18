@@ -6,6 +6,7 @@
   --text-color: #2c2c2c;
   --text-secondary: #666;
   --border-color: #e1e1e1;
+  --card-bg: #ffffff;
 }
 
 /* 文字の読みやすさ改善 */
@@ -16,10 +17,10 @@ body {
     "Hiragino Sans",
     Meiryo,
     sans-serif;
-
   line-height: 1.8;
   color: var(--text-color);
   font-weight: 400;
+  background-color: var(--bg-color);
 }
 
 /* 記事本文の読みやすさ向上 */
@@ -31,6 +32,7 @@ body {
 
 .post-content p {
   margin-bottom: 1.5em;
+  color: var(--text-color);
 }
 
 /* メタ情報の文字色調整 */
@@ -89,7 +91,7 @@ body {
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
-  background: white;
+  background: var(--card-bg);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -114,7 +116,19 @@ body {
   margin-top: 15px;
   padding-top: 15px;
   border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
 }
+
+/* ページヘッダーのスタイリング */
+.page-header h1 {
+  color: var(--text-color) !important;
+}
+
+.breadcrumbs a {
+  color: var(--text-secondary) !important;
+}
+
+/* メニューのスタイリング */
 #menu a {
   color: white !important;
   padding: 8px 12px;
@@ -148,6 +162,15 @@ a:hover {
 }
 
 /* 見出しの装飾をメインサイトに合わせる */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  color: var(--text-color) !important;
+}
+
 .post-content h2 {
   border-bottom: 2px solid var(--accent-color);
   padding-bottom: 5px;
@@ -176,15 +199,88 @@ a:hover {
 
 /* フッターの統一 */
 .footer {
-  background: #ddd;
+  background: var(--border-color);
+  color: var(--text-secondary);
   font-size: 0.9em;
 }
 
-/* ダークモード対応（必要に応じて） */
+.footer a {
+  color: var(--text-secondary) !important;
+}
+
+/* ダークモード対応 */
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #1a1a1a;
     --text-color: #e0e0e0;
+    --text-secondary: #a0a0a0;
+    --border-color: #333333;
+    --card-bg: #2a2a2a;
+  }
+  
+  body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  .post-entry {
+    background: var(--card-bg) !important;
+    border-color: var(--border-color) !important;
+  }
+  
+  .entry-header .entry-title {
+    color: var(--text-color) !important;
+  }
+  
+  .entry-content {
+    color: var(--text-secondary) !important;
+  }
+  
+  .entry-footer {
+    color: var(--text-secondary) !important;
+    border-top-color: var(--border-color) !important;
+  }
+  
+  .page-header h1 {
+    color: var(--text-color) !important;
+  }
+  
+  .breadcrumbs a {
+    color: var(--text-secondary) !important;
+  }
+  
+  .post-content,
+  .post-content p {
+    color: var(--text-color) !important;
+  }
+  
+  .post-content h1,
+  .post-content h2,
+  .post-content h3,
+  .post-content h4,
+  .post-content h5,
+  .post-content h6 {
+    color: var(--text-color) !important;
+  }
+  
+  .footer {
+    background: var(--border-color) !important;
+    color: var(--text-secondary) !important;
+  }
+  
+  .footer a {
+    color: var(--text-secondary) !important;
+  }
+  
+  /* ダークモードでのタグスタイル調整 */
+  .terms-tags a, .post-tags a {
+    background: #4a4a4a !important;
+    color: var(--text-color) !important;
+  }
+  
+  .terms-tags a:hover, .post-tags a:hover {
+    background: var(--main-color) !important;
+    color: white !important;
   }
 }
 
