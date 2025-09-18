@@ -211,11 +211,11 @@ a:hover {
 /* ダークモード対応 */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #1a1a1a;
-    --text-color: #e0e0e0;
-    --text-secondary: #a0a0a0;
-    --border-color: #333333;
-    --card-bg: #2a2a2a;
+    --bg-color: #0f0f0f;
+    --text-color: #f0f0f0;
+    --text-secondary: #b0b0b0;
+    --border-color: #2a2a2a;
+    --card-bg: #1a1a1a;
   }
   
   body {
@@ -223,9 +223,19 @@ a:hover {
     color: var(--text-color) !important;
   }
   
+  /* メインコンテナの背景も暗くする */
+  .main {
+    background-color: var(--bg-color) !important;
+  }
+  
   .post-entry {
     background: var(--card-bg) !important;
     border-color: var(--border-color) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+  }
+  
+  .post-entry:hover {
+    box-shadow: 0 4px 16px rgba(123, 93, 184, 0.3) !important;
   }
   
   .entry-header .entry-title {
@@ -264,7 +274,7 @@ a:hover {
   }
   
   .footer {
-    background: var(--border-color) !important;
+    background: var(--card-bg) !important;
     color: var(--text-secondary) !important;
   }
   
@@ -274,13 +284,19 @@ a:hover {
   
   /* ダークモードでのタグスタイル調整 */
   .terms-tags a, .post-tags a {
-    background: #4a4a4a !important;
+    background: #3a3a3a !important;
     color: var(--text-color) !important;
   }
   
   .terms-tags a:hover, .post-tags a:hover {
     background: var(--main-color) !important;
     color: white !important;
+  }
+  
+  /* ソーシャルメディアアイコンの背景を調整 */
+  .social-icons,
+  div[style*="background"] {
+    background: var(--card-bg) !important;
   }
 }
 
