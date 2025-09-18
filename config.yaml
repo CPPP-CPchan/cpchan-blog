@@ -11,7 +11,7 @@ params:
   
   # デザイン設定
   defaultTheme: "light"
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
@@ -33,7 +33,7 @@ params:
   socialIcons:
     - name: "YouTube"
       url: "https://youtube.com/@CP-chan"
-    - name: "X/Twitter"
+    - name: "Twitter"
       url: "https://x.com/CPPP_CPchan"
     - name: "home"
       url: "https://www.cppp-cpchan.org"
@@ -42,10 +42,6 @@ params:
 # メニュー設定（メインサイトのナビゲーションと統一感を持たせる）
 menu:
   main:
-    - identifier: home
-      name: "ホーム"
-      url: /
-      weight: 10
     - identifier: posts
       name: "記事"
       url: /posts/
