@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "d5a62bb47f62ae4a",
+            "id": "2614400812d75037",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QMA/QMA 黄金の道標の最終盤から新作稼働まで.md",
+                "file": "template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "QMA 黄金の道標の最終盤から新作稼働まで"
+              "title": "template"
             }
           }
         ],
@@ -195,13 +195,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3314ac062a0b6293",
+  "active": "2614400812d75037",
   "lastOpenFiles": [
     "QMA/無題のファイル.md",
+    "template",
     "QMA/QMA 黄金の道標の最終盤から新作稼働まで.md",
+    "しぴちゃんブログ開設.md",
+    "template.md",
+    "無題のファイル.canvas",
     "img_20250924103734.png",
     "QMA/#QMA 黄金の道標の最終盤から新作稼働まで.md#",
-    "しぴちゃんブログ開設.md",
     "QMA",
     "create a link.md",
     "Welcome.md",
