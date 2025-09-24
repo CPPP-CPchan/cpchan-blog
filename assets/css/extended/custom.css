@@ -385,6 +385,19 @@ body:not(.dark) .post-content p {
   color: var(--text-color) !important;
 }
 
+body:not(.dark) .page-header h1 {
+  color: var(--text-color) !important;
+}
+
+body:not(.dark) .post-content h1,
+body:not(.dark) .post-content h2,
+body:not(.dark) .post-content h3,
+body:not(.dark) .post-content h4,
+body:not(.dark) .post-content h5,
+body:not(.dark) .post-content h6 {
+  color: var(--text-color) !important;
+}
+
 /* モバイル対応 */
 @media (max-width: 768px) {
   #menu {
