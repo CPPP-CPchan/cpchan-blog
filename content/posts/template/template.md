@@ -1,15 +1,10 @@
 ---
-title: __title__
-date: {{date}}T{{time}}:00+09:00
-draft: true
+title:
+date: "{{date}}T{{time}}:00+0900"
+draft: false
 tags:
-  - ブログ
-  - 雑談
 categories:
-  - 雑談
 ---
-
-
 # あいさつ
 
 しぴぴぴ！バーチャルストリーマーのしぴちゃんです。
