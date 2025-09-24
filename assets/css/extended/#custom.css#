@@ -1,0 +1,414 @@
+/* メインサイトのカラーテーマを適用 */
+:root {
+  --main-color: #7b5db8;
+  --accent-color: #c5b3e6;
+  --bg-color: #f8f8f8;
+  --text-color: #2c2c2c;
+  --text-secondary: #666;
+  --border-color: #e1e1e1;
+  --card-bg: #ffffff;
+}
+
+/* 文字の読みやすさ改善 */
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+  line-height: 1.8;
+  color: var(--text-color);
+  font-weight: 400;
+  background-color: var(--bg-color);
+}
+
+/* 記事本文の読みやすさ向上 */
+.post-content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.post-content p {
+  margin-bottom: 1.5em;
+  color: var(--text-color);
+}
+
+/* メタ情報の文字色調整 */
+.post-meta, .post-footer {
+  color: var(--text-secondary);
+}
+
+/* プロフィール画像とヘッダーのスタイリング */
+.profile {
+  background: linear-gradient(135deg, var(--main-color) 0%, var(--accent-color) 100%);
+  border-radius: 15px;
+  padding: 40px;
+  margin: 20px 0;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(123, 93, 184, 0.2);
+}
+
+.profile_inner {
+  color: white;
+}
+
+.profile .profile_inner h1 {
+  color: white !important;
+  margin-bottom: 10px;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.profile .profile_inner p {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 1.1em;
+}
+
+.profile img {
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* ヘッダー部分をメインサイトに合わせる */
+.header {
+  background: var(--main-color) !important;
+  box-shadow: 0 2px 8px rgba(123, 93, 184, 0.3);
+}
+
+.logo a, .header .logo a {
+  color: white !important;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+/* 記事カードのスタイリング */
+.post-entry {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: var(--card-bg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(123, 93, 184, 0.15);
+}
+
+.entry-header .entry-title {
+  color: var(--text-color) !important;
+  font-size: 1.4em;
+  margin-bottom: 8px;
+}
+
+.entry-content {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.entry-footer {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+/* ページヘッダーのスタイリング */
+.page-header h1 {
+  color: var(--text-color) !important;
+}
+
+.breadcrumbs a {
+  color: var(--text-secondary) !important;
+}
+
+/* メニューのスタイリング */
+#menu a {
+  color: white !important;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+#menu a:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* リンクカラーの統一 */
+a {
+  color: var(--main-color) !important;
+}
+
+a:hover {
+  color: var(--accent-color) !important;
+}
+
+/* ボタンスタイルの統一 */
+.btn, .pagination .page-link {
+  background: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+  border-radius: 5px;
+}
+
+.btn:hover, .pagination .page-link:hover {
+  background: var(--accent-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* 見出しの装飾をメインサイトに合わせる */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  color: var(--text-color) !important;
+}
+
+.post-content h2 {
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+/* コードブロックの装飾 */
+.highlight {
+  border-left: 3px solid var(--main-color);
+}
+
+/* タグ・カテゴリのスタイル */
+.terms-tags a, .post-tags a {
+  background: var(--accent-color) !important;
+  color: var(--text-color) !important;
+  border-radius: 15px;
+  padding: 4px 12px;
+  margin: 2px;
+  text-decoration: none;
+}
+
+.terms-tags a:hover, .post-tags a:hover {
+  background: var(--main-color) !important;
+  color: white !important;
+}
+
+/* フッターの統一 */
+.footer {
+  background: var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.9em;
+}
+
+.footer a {
+  color: var(--text-secondary) !important;
+}
+
+/* ダークモード対応 - body.darkクラス使用 */
+body.dark {
+  --bg-color: #0f0f0f;
+  --text-color: #f0f0f0;
+  --text-secondary: #b0b0b0;
+  --border-color: #2a2a2a;
+  --card-bg: #1a1a1a;
+  
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* メインコンテナの背景も暗くする */
+body.dark .main {
+  background-color: var(--bg-color) !important;
+}
+
+body.dark .post-entry {
+  background: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.dark .post-entry:hover {
+  box-shadow: 0 4px 16px rgba(123, 93, 184, 0.3) !important;
+}
+
+body.dark .entry-header .entry-title {
+  color: var(--text-color) !important;
+}
+
+body.dark .entry-content {
+  color: var(--text-secondary) !important;
+}
+
+body.dark .entry-footer {
+  color: var(--text-secondary) !important;
+  border-top-color: var(--border-color) !important;
+}
+
+body.dark .page-header h1 {
+  color: var(--text-color) !important;
+}
+
+body.dark .breadcrumbs a {
+  color: var(--text-secondary) !important;
+}
+
+body.dark .post-content,
+body.dark .post-content p {
+  color: var(--text-color) !important;
+}
+
+body.dark .post-content h1,
+body.dark .post-content h2,
+body.dark .post-content h3,
+body.dark .post-content h4,
+body.dark .post-content h5,
+body.dark .post-content h6 {
+  color: var(--text-color) !important;
+}
+
+body.dark .footer {
+  background: var(--card-bg) !important;
+  color: var(--text-secondary) !important;
+}
+
+body.dark .footer a {
+  color: var(--text-secondary) !important;
+}
+
+/* ダークモードでのタグスタイル調整 */
+body.dark .terms-tags a, 
+body.dark .post-tags a {
+  background: #3a3a3a !important;
+  color: var(--text-color) !important;
+}
+
+body.dark .terms-tags a:hover, 
+body.dark .post-tags a:hover {
+  background: var(--main-color) !important;
+  color: white !important;
+}
+
+/* システムの設定に基づくダークモード対応 - ただしサイトで明示的に設定されていない場合のみ */
+@media (prefers-color-scheme: dark) {
+  /* OSダークモード + サイト設定なし の場合のみ適用 */
+  body:not(.dark):not([class*="theme"]) {
+    --bg-color: #0f0f0f;
+    --text-color: #f0f0f0;
+    --text-secondary: #b0b0b0;
+    --border-color: #2a2a2a;
+    --card-bg: #1a1a1a;
+    
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  body:not(.dark):not([class*="theme"]) .main {
+    background-color: var(--bg-color) !important;
+  }
+  
+  body:not(.dark):not([class*="theme"]) .post-entry {
+    background: var(--card-bg) !important;
+    border-color: var(--border-color) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+  }
+  
+  body:not(.dark):not([class*="theme"]) .entry-header .entry-title {
+    color: var(--text-color) !important;
+  }
+  
+  body:not(.dark):not([class*="theme"]) .entry-content {
+    color: var(--text-secondary) !important;
+  }
+  
+  body:not(.dark):not([class*="theme"]) .entry-footer {
+    color: var(--text-secondary) !important;
+    border-top-color: var(--border-color) !important;
+  }
+  
+  body:not(.dark):not([class*="theme"]) .page-header h1 {
+    color: var(--text-color) !important;
+  }
+  
+  body:not(.dark):not([class*="theme"]) .breadcrumbs a {
+    color: var(--text-secondary) !important;
+  }
+  
+  body:not(.dark):not([class*="theme"]) .post-content,
+  body:not(.dark):not([class*="theme"]) .post-content p {
+    color: var(--text-color) !important;
+  }
+  
+  body:not(.dark):not([class*="theme"]) .post-content h1,
+  body:not(.dark):not([class*="theme"]) .post-content h2,
+  body:not(.dark):not([class*="theme"]) .post-content h3,
+  body:not(.dark):not([class*="theme"]) .post-content h4,
+  body:not(.dark):not([class*="theme"]) .post-content h5,
+  body:not(.dark):not([class*="theme"]) .post-content h6 {
+    color: var(--text-color) !important;
+  }
+}
+
+/* ライトテーマが明示的に設定されている場合は強制的にライト設定を適用 */
+body:not(.dark) {
+  --bg-color: #f8f8f8;
+  --text-color: #2c2c2c;
+  --text-secondary: #666;
+  --border-color: #e1e1e1;
+  --card-bg: #ffffff;
+}
+
+/* ライトモード時の明示的な設定 */
+body:not(.dark) .post-entry {
+  background: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+body:not(.dark) .entry-header .entry-title {
+  color: var(--text-color) !important;
+}
+
+body:not(.dark) .entry-content {
+  color: var(--text-secondary) !important;
+}
+
+body:not(.dark) .entry-footer {
+  color: var(--text-secondary) !important;
+}
+
+body:not(.dark) .post-content,
+body:not(.dark) .post-content p {
+  color: var(--text-color) !important;
+}
+
+body:not(.dark) .page-header h1 {
+  color: var(--text-color) !important;
+}
+
+body:not(.dark) .post-content h1,
+body:not(.dark) .post-content h2,
+body:not(.dark) .post-content h3,
+body:not(.dark) .post-content h4,
+body:not(.dark) .post-content h5,
+body:not(.dark) .post-content h6 {
+  color: var(--text-color) !important;
+}
+
+body:not(.dark) .post-
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+  #menu {
+    background: var(--main-color) !important;
+  }
+  
+  #menu a {
+    padding: 10px 14px;
+    white-space: nowrap;
+  }
+}
+B
