@@ -368,7 +368,12 @@ body:not(.dark) .post-entry {
   color: var(--text-color) !important;
 }
 
-body:not(.dark) .entry-header .entry-title {
+body:not(.dark) .entry-header h1,
+body:not(.dark) .entry-header h2,
+body:not(.dark) .entry-header h3,
+body:not(.dark) .entry-header h4,
+body:not(.dark) .entry-header h5,
+body:not(.dark) .entry-header h6 {
   color: var(--text-color) !important;
 }
 
@@ -398,6 +403,12 @@ body:not(.dark) .post-content h6 {
   color: var(--text-color) !important;
 }
 
+body:not(.dark) .post-title,
+body:not(.dark) .post-entry {
+  color: var(--text-color) !important;
+}
+
+
 /* モバイル対応 */
 @media (max-width: 768px) {
   #menu {
@@ -409,3 +420,4 @@ body:not(.dark) .post-content h6 {
     white-space: nowrap;
   }
 }
+B
