@@ -2,18 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>QMA on しぴちゃんのブログ</title>
-    <link>http://localhost:1313/tags/qma/</link>
+    <link>https://blog.cppp-cpchan.org/tags/qma/</link>
     <description>Recent content in QMA on しぴちゃんのブログ</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 24 Sep 2025 10:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/qma/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.cppp-cpchan.org/tags/qma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QMA ソロクエ220F制覇までの道のり</title>
-      <link>http://localhost:1313/posts/qma/qma-%E3%82%BD%E3%83%AD%E3%82%AF%E3%82%A8220f%E5%88%B6%E8%A6%87%E3%81%BE%E3%81%A7%E3%81%AE%E9%81%93%E3%81%AE%E3%82%8A/</link>
+      <link>https://blog.cppp-cpchan.org/posts/qma/qma-%E9%BB%84%E9%87%91%E3%81%AE%E9%81%93%E6%A8%99%E3%81%AE%E6%9C%80%E7%B5%82%E7%9B%A4%E3%81%8B%E3%82%89%E6%96%B0%E4%BD%9C%E7%A8%BC%E5%83%8D%E3%81%BE%E3%81%A7/</link>
       <pubDate>Wed, 24 Sep 2025 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/qma/qma-%E3%82%BD%E3%83%AD%E3%82%AF%E3%82%A8220f%E5%88%B6%E8%A6%87%E3%81%BE%E3%81%A7%E3%81%AE%E9%81%93%E3%81%AE%E3%82%8A/</guid>
-      <description></description>
+      <guid>https://blog.cppp-cpchan.org/posts/qma/qma-%E9%BB%84%E9%87%91%E3%81%AE%E9%81%93%E6%A8%99%E3%81%AE%E6%9C%80%E7%B5%82%E7%9B%A4%E3%81%8B%E3%82%89%E6%96%B0%E4%BD%9C%E7%A8%BC%E5%83%8D%E3%81%BE%E3%81%A7/</guid>
+      <description>&lt;h1 id=&#34;qma新作告知&#34;&gt;QMA、新作告知&lt;/h1&gt;
+&lt;p&gt;9/10, QMAの新作「緋のアルカディア」（あけのあるかでぃあ？）の稼働が決定したとニュースがありました。&lt;/p&gt;
+&lt;p&gt;個人的には、配信で言っていたように「そろそろ新作が来る」と思っていたので、新作稼働自体は意外ではありませんでした。
+配信内で言っていた理由としては、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全国大会のシンフォニア杯がラストっぽいこと
+（スタンプが過去3回の意匠を繋げたやつであるなど）&lt;/li&gt;
+&lt;li&gt;ソロクエの220F到達者が&amp;quot;完走&amp;quot;と思われる通り名を入手していたこと&lt;/li&gt;
+&lt;li&gt;ジャンルイベントや検定イベントの区切りがついたこと
+など、いかにもバージョン終盤であることが匂わされていたためです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;しぴちゃんは、稼働ニュースを見て「神アプデきたな」
+&lt;a href=&#34;https://x.com/CPPP_CPchan/status/1965746427134611883&#34;&gt;https://x.com/CPPP_CPchan/status/1965746427134611883&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;「ソロクエは続投か」「ソロクエ220は流石に間に合わねえな」
+&lt;a href=&#34;https://x.com/CPPP_CPchan/status/1965746689110888885&#34;&gt;https://x.com/CPPP_CPchan/status/1965746689110888885&lt;/a&gt;
+&lt;a href=&#34;https://x.com/CPPP_CPchan/status/1965746853733122154&#34;&gt;https://x.com/CPPP_CPchan/status/1965746853733122154&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;とか言っていました。
+「ソロクエ220は流石に間に合わねえな」とか言いつつ、個人的には10月初旬くらいが稼働日と予想していたので、ワンチャン220Fまで完走できないかなと思ってソロクエをちまちまやろうとしていました。&lt;/p&gt;
+&lt;h1 id=&#34;突然の新作稼働日決定&#34;&gt;突然の新作稼働日決定&lt;/h1&gt;
+&lt;p&gt;その後、特にニュースもないまま一週間ほどが経ち、9/17に突然稼働日が9/24と宣言されました。
+&lt;a href=&#34;https://x.com/QMA_staff/status/1968247080591520169&#34;&gt;https://x.com/QMA_staff/status/1968247080591520169&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;結構びっくりしました。最近のゲームの新作は、新作の告知が出てから稼働までに、nintendo directのような宣伝で新要素やティザーPVが出るものだと思っていたからです。&lt;/p&gt;
+&lt;p&gt;QMAにそんな予算はなさそうだし、クイズの更新と稼働継続を頑張ってくれれば満足ではあるんですが、さすがにもうちょっとなんか宣伝することないのか？キャラチャンジ自由なこと以外に新要素ほとんどないのか？など思っていました。
+（それでも、キャラチャンジ自由なことは引き継ぎ項目にこっそり書いてあるだけだったので、もっと宣伝しろよ！とは思います）
+![[Pasted image 20250924103734.png]]&lt;/p&gt;
+&lt;p&gt;公式（ &lt;a href=&#34;https://p.eagate.573.jp/game/qma/19/&#34;&gt;https://p.eagate.573.jp/game/qma/19/&lt;/a&gt; ）にある引き継ぎ項目一覧。
+キャラチェンジが自由になることがしれっと書いてある。一応青字ではある。&lt;/p&gt;
+&lt;p&gt;この内容から、トーナメント、ソロクエスト、リコードアリーナ、マジックコロシアムあたりのモードはあんまり変化していなそうであることが伺えます。どうなるか楽しみですね。&lt;/p&gt;
+&lt;p&gt;（9/24 10:30 JST 現在、もう稼働開始しているはずですがまだコナステの画像は黄金の道標だし、公式HPには引き継ぎ内容しか出てません。大丈夫？？？）&lt;/p&gt;
+&lt;p&gt;その頃しぴちゃんは、軽く計算してギリギリソロクエスト完走が間に合いそうという結論になったので、ソロクエを爆走し始めました。ソロクエ爆走の詳細と、次の記事で書こうと思います。&lt;/p&gt;
+&lt;h1 id=&#34;新作に期待すること&#34;&gt;新作に期待すること&lt;/h1&gt;
+&lt;p&gt;以下、しぴちゃんが新作に期待することを書いていきます。
+新作稼働日に書いていますが、まだプレーしてないので好きなこと書けるうちに書いてしまおうという算段です。&lt;/p&gt;
+&lt;h3 id=&#34;プレイアブルキャラクターの増加&#34;&gt;プレイアブルキャラクターの増加&lt;/h3&gt;
+&lt;p&gt;キャラクターチェンジが自由になるっぽいし、グリムが使えるようになると思われるのでたぶん達成されるはずですね。
+そもそも声優に超金かかってるキャラゲーで、キャラチェンジのためにカードを購入しないといけなかった従来のシステムが現代的でなかった気がします。&lt;/p&gt;
+&lt;h3 id=&#34;それなりに継続的なイベントの開催&#34;&gt;それなりに継続的なイベントの開催&lt;/h3&gt;
+&lt;p&gt;前作（黄金の道標）と同じ感じで割と満足しています。検定協力はたぶん初のイベントだったと思いますが、結構好きでした。苦手検定でも意外となんとかなります。
+スケジュールはもうちょっとなんとかしてほしかったけど。&lt;/p&gt;
+&lt;h3 id=&#34;キャラクターチェンジが自由になることを活かしたイベントの開催&#34;&gt;キャラクターチェンジが自由になることを活かしたイベントの開催&lt;/h3&gt;
+&lt;p&gt;タイトルの通りです。配信では、オシャレ廃止して毎月キャラごとにオシャレ上位にグランドマスターとかマスターとかつけたらいいんじゃね？とか言いました。&lt;/p&gt;
+&lt;h3 id=&#34;クイズの更新&#34;&gt;クイズの更新&lt;/h3&gt;
+&lt;p&gt;タイトルの通りです。検定どうなるんだろうね。&lt;/p&gt;
+&lt;h3 id=&#34;不具合やゲーム体験の改善&#34;&gt;不具合やゲーム体験の改善&lt;/h3&gt;
+&lt;p&gt;基本的に文句ないんですけど、黄金の道標時点で改善してほしかった不具合は以下の通りです。
+*&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
