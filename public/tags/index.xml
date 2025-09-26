@@ -2,24 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on しぴちゃんのブログ</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://blog.cppp-cpchan.org/tags/</link>
     <description>Recent content in Tags on しぴちゃんのブログ</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 18 Sep 2025 10:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Sep 2025 11:01:00 +0900</lastBuildDate>
+    <atom:link href="https://blog.cppp-cpchan.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QMA</title>
+      <link>https://blog.cppp-cpchan.org/tags/qma/</link>
+      <pubDate>Fri, 26 Sep 2025 11:01:00 +0900</pubDate>
+      <guid>https://blog.cppp-cpchan.org/tags/qma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>緋のアルカディア</title>
+      <link>https://blog.cppp-cpchan.org/tags/%E7%B7%8B%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%AB%E3%83%87%E3%82%A3%E3%82%A2/</link>
+      <pubDate>Fri, 26 Sep 2025 11:01:00 +0900</pubDate>
+      <guid>https://blog.cppp-cpchan.org/tags/%E7%B7%8B%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%AB%E3%83%87%E3%82%A3%E3%82%A2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ソロクエ</title>
+      <link>https://blog.cppp-cpchan.org/tags/%E3%82%BD%E3%83%AD%E3%82%AF%E3%82%A8/</link>
+      <pubDate>Wed, 24 Sep 2025 21:46:00 +0900</pubDate>
+      <guid>https://blog.cppp-cpchan.org/tags/%E3%82%BD%E3%83%AD%E3%82%AF%E3%82%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>黄金の道標</title>
+      <link>https://blog.cppp-cpchan.org/tags/%E9%BB%84%E9%87%91%E3%81%AE%E9%81%93%E6%A8%99/</link>
+      <pubDate>Wed, 24 Sep 2025 21:46:00 +0900</pubDate>
+      <guid>https://blog.cppp-cpchan.org/tags/%E9%BB%84%E9%87%91%E3%81%AE%E9%81%93%E6%A8%99/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ブログ</title>
-      <link>http://localhost:1313/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
+      <link>https://blog.cppp-cpchan.org/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
       <pubDate>Thu, 18 Sep 2025 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/tags/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
+      <guid>https://blog.cppp-cpchan.org/tags/%E3%83%96%E3%83%AD%E3%82%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>雑談</title>
-      <link>http://localhost:1313/tags/%E9%9B%91%E8%AB%87/</link>
+      <link>https://blog.cppp-cpchan.org/tags/%E9%9B%91%E8%AB%87/</link>
       <pubDate>Thu, 18 Sep 2025 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/tags/%E9%9B%91%E8%AB%87/</guid>
+      <guid>https://blog.cppp-cpchan.org/tags/%E9%9B%91%E8%AB%87/</guid>
       <description></description>
     </item>
   </channel>
