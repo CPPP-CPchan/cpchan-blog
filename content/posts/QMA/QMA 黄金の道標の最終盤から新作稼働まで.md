@@ -5,6 +5,7 @@ draft: false
 tags:
   - QMA
   - 黄金の道標
+  - 雑談
 categories:
   - QMA
 ---
