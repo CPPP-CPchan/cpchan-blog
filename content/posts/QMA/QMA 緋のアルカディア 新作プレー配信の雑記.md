@@ -63,6 +63,7 @@ categories:
 * 正解数に応じてランク（難易度の分布？）が上昇する。
 	![難易度表](https://lh3.googleusercontent.com/d/1irYCS8RkJR-ufGVyrQIjqxyYcqvhiE1J)
 	
+	
 * ヒント（お助けアイテムの本）が最初に5個支給される。補充はされない。
 
 配信では95問正解くらいで終了したが、webランキングを見ると100問正解すると称号（枠相当）が貰えるらしい。
