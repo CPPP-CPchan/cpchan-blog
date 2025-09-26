@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on しぴちゃんのブログ</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://blog.cppp-cpchan.org/categories/</link>
     <description>Recent content in Categories on しぴちゃんのブログ</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 18 Sep 2025 10:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Sep 2025 11:01:00 +0900</lastBuildDate>
+    <atom:link href="https://blog.cppp-cpchan.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QMA</title>
+      <link>https://blog.cppp-cpchan.org/categories/qma/</link>
+      <pubDate>Fri, 26 Sep 2025 11:01:00 +0900</pubDate>
+      <guid>https://blog.cppp-cpchan.org/categories/qma/</guid>
+      <description></description>
+    </item>
     <item>
       <title>雑談</title>
-      <link>http://localhost:1313/categories/%E9%9B%91%E8%AB%87/</link>
+      <link>https://blog.cppp-cpchan.org/categories/%E9%9B%91%E8%AB%87/</link>
       <pubDate>Thu, 18 Sep 2025 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/categories/%E9%9B%91%E8%AB%87/</guid>
+      <guid>https://blog.cppp-cpchan.org/categories/%E9%9B%91%E8%AB%87/</guid>
       <description></description>
     </item>
   </channel>

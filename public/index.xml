@@ -2,22 +2,197 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>しぴちゃんのブログ</title>
-    <link>http://localhost:1313/</link>
+    <link>https://blog.cppp-cpchan.org/</link>
     <description>Recent content on しぴちゃんのブログ</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 18 Sep 2025 10:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Sep 2025 11:01:00 +0900</lastBuildDate>
+    <atom:link href="https://blog.cppp-cpchan.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QMA 緋のアルカディア 新作プレー配信の雑記</title>
+      <link>https://blog.cppp-cpchan.org/posts/qma/qma-%E7%B7%8B%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%AB%E3%83%87%E3%82%A3%E3%82%A2-%E6%96%B0%E4%BD%9C%E3%83%97%E3%83%AC%E3%83%BC%E9%85%8D%E4%BF%A1%E3%81%AE%E9%9B%91%E8%A8%98/</link>
+      <pubDate>Fri, 26 Sep 2025 11:01:00 +0900</pubDate>
+      <guid>https://blog.cppp-cpchan.org/posts/qma/qma-%E7%B7%8B%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%AB%E3%83%87%E3%82%A3%E3%82%A2-%E6%96%B0%E4%BD%9C%E3%83%97%E3%83%AC%E3%83%BC%E9%85%8D%E4%BF%A1%E3%81%AE%E9%9B%91%E8%A8%98/</guid>
+      <description>&lt;h1 id=&#34;新作の雑記&#34;&gt;新作の雑記&lt;/h1&gt;
+&lt;p&gt;しぴぴぴ！バーチャルストリーマーのしぴちゃんです。&lt;/p&gt;
+&lt;p&gt;9/24に稼働したQMAの新作「緋のアルカディア」（あけのあるかでぃあ）を一通り配信でプレーしたので、前作との変更点や感想を書いていきます。&lt;/p&gt;
+&lt;p&gt;検証環境はすべてコナステ@Androidタブレットです。&lt;/p&gt;
+&lt;h2 id=&#34;全体&#34;&gt;全体&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;BGMが全体的に刷新された。&lt;/strong&gt;
+オープニング、カード認証、モード選択、予習選択画面など、BGMはかなり新規収録されていそう。前作よりは落ち着いた感じが減ってアップテンポな感じになった。
+QMAの楽曲は音ゲーのコンポーザーチームに作ってもらってるっぽいので、楽曲の質は非常にいい。ゲーセンではうるさくて聴きにくいと思うので、ぜひコナステで聴いてほしい。お気に入りのヘッドホンを持ち込んで快活で聴くのもいいかも。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;UIのテーマが刷新された。&lt;/strong&gt;
+UIのテーマは前作の黄色ベースから赤ベースになった。目に悪い気がする…ｗ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;キャラクターチェンジが自由になった。&lt;/strong&gt;
+前作のキャラランキングイベントでテストしていた機能。今作の目玉かもしれない。
+キャラゲーでセーブデータごとにキャラ固定だった今までがおかしかったんだと思うけど、歓迎すべき。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;グリムキャラが使用可能になった。&lt;/strong&gt;
+今作の目玉の一つ…だが、最初からは使えない。
+最初のキャラ選択ではそもそもグリムの選択画面に入れず、その後のキャラ変更画面で右下のボタンからグリムが選べる。
+ただし解禁が必要で、プレーごとにもらえる「解禁エナジー」を1,200pt集めると1キャラ解禁できる（たぶん）。
+稼働日から解禁できるのはグリムのレオン・ルキア・ラスク・アロエの4キャラのみ。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;解禁エナジーの取得量&#34; loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/d/1sMlcc9B2DuVZ8KdYLo8Io860pqR_VNsw&#34;&gt;
+まとめたもの&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全モード 予習復習以外 1正解につき1&lt;/li&gt;
+&lt;li&gt;トーナメント ドラゴン 3位以上: 120&lt;/li&gt;
+&lt;li&gt;トーナメント ミノタウロス 2位以上: 80&lt;/li&gt;
+&lt;li&gt;トーナメント フェアリー 2位以上: 40&lt;/li&gt;
+&lt;li&gt;検定/登竜門 SSS: 45&lt;/li&gt;
+&lt;li&gt;検定/登竜門 SS: 40&lt;/li&gt;
+&lt;li&gt;検定/登竜門 S: 35&lt;/li&gt;
+&lt;li&gt;検定ウォーズ 2位以上: 100&lt;/li&gt;
+&lt;li&gt;協力/マジコロ HARD勝利: 50&lt;/li&gt;
+&lt;li&gt;協力/マジコロ NORMAL勝利: 40&lt;/li&gt;
+&lt;li&gt;ソロクエ+ 最高踏破エリア更新: 各難易度25&lt;/li&gt;
+&lt;li&gt;リコアリ ランクマッチ勝利 Aランク以上: 45&lt;/li&gt;
+&lt;li&gt;リコアリ ランクマッチ勝利 Bランク以下: 35&lt;/li&gt;
+&lt;li&gt;100問チャレンジ 80問: 200&lt;/li&gt;
+&lt;li&gt;100問チャレンジ 60問: 120&lt;/li&gt;
+&lt;li&gt;100問チャレンジ 40問: 80&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;トリクロや全国大会は何もボーナスがないのでかなりしょっぱい。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QMA 黄金の道標ソロクエ220F到達までの軌跡</title>
+      <link>https://blog.cppp-cpchan.org/posts/qma/qma-%E9%BB%84%E9%87%91%E3%81%AE%E9%81%93%E6%A8%99%E3%82%BD%E3%83%AD%E3%82%AF%E3%82%A8220f%E5%88%B0%E9%81%94%E3%81%BE%E3%81%A7%E3%81%AE%E8%BB%8C%E8%B7%A1/</link>
+      <pubDate>Wed, 24 Sep 2025 21:46:00 +0900</pubDate>
+      <guid>https://blog.cppp-cpchan.org/posts/qma/qma-%E9%BB%84%E9%87%91%E3%81%AE%E9%81%93%E6%A8%99%E3%82%BD%E3%83%AD%E3%82%AF%E3%82%A8220f%E5%88%B0%E9%81%94%E3%81%BE%E3%81%A7%E3%81%AE%E8%BB%8C%E8%B7%A1/</guid>
+      <description>&lt;p&gt;この記事にはQMA 黄金の道標のソロクエストの終盤のネタバレが含まれています
+…が、もう黄金の道標終わっちゃったから関係ないよね！という記事です。&lt;/p&gt;
+&lt;h1 id=&#34;qma突然の新作稼働日決定&#34;&gt;QMA、突然の新作稼働日決定&lt;/h1&gt;
+&lt;p&gt;[[QMA 黄金の道標の最終盤から新作稼働まで]]に書いたように、次回作の稼働日が突然知らされました。
+しぴちゃんはソロクエ間に合うかな…と皮算用し、意外といけるかも？と思ったのでソロクエを220Fまで進めることに決めたのでした。&lt;/p&gt;
+&lt;p&gt;新作発表からしばらくした9/13時点（稼働日告知前）では、Lv165, 進捗176/176/158/151 でした。以下進捗はEasy, Normal, Hard, Veryhardの最高踏破エリアで表記します。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;img&#34; loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/d/1tQ-7kqGPr-p_dj9j57-AlW6OIML25TDw&#34;&gt;
+9/13の配信終わりごろ。配信アーカイブはありますが、一応コメントにモザイクをかけておきます。&lt;/p&gt;
+&lt;h1 id=&#34;ラスト一週間の追い込み&#34;&gt;ラスト一週間の追い込み&lt;/h1&gt;
+&lt;h3 id=&#34;920-とりあえずレベルを上げる&#34;&gt;9/20: とりあえずレベルを上げる&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;img&#34; loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/d/1X9fmf4BvQiFp9419C196pds6Jc_epQJ6&#34;&gt;
+ちょっと色が薄いけど9/20の配信終わりごろ。Lv171, 進捗183/183/158/151。
+平日は出張なのだが、泊まってるホテルの回線が終わり散らかしているので進めるのがかなり厳しかった。&lt;/p&gt;
+&lt;h3 id=&#34;921-このままだと間に合わないと悟りvh特攻を始める&#34;&gt;9/21: このままだと間に合わないと悟りVH特攻を始める&lt;/h3&gt;
+&lt;p&gt;配信すらしないでほぼ丸一日ぶん回していた気がする。9/22の夜までに20Lvほど上がってるので9/21と9/22の昼で合わせて140クレくらいやってる。&lt;/p&gt;
+&lt;p&gt;9/21はひたすらVHのフロアを進めてた気がする。151→188くらい。
+必死だったのでスクショすらない。&lt;/p&gt;
+&lt;h3 id=&#34;922-ガチャ終了完走の目処が立つ&#34;&gt;9/22: ガチャ終了、完走の目処が立つ&lt;/h3&gt;
+&lt;p&gt;9/22（月）、バージョンアップ準備に伴い購買部が閉店。つまりガチャチケットが購入不可能になる。
+直前にガチャが引けなくなることに思い至ったので急いで課金し100連ガチャを引く。&lt;/p&gt;
+&lt;p&gt;9/22の夜（3時間半くらい配信した後）Lv 196, 進捗 208/208/208/208。&lt;/p&gt;
+&lt;h3 id=&#34;923-完走&#34;&gt;9/23: 完走&lt;/h3&gt;
+&lt;p&gt;このブログにはコメント欄がありません。コメントは&lt;a href=&#34;https://x.com/CPPP_CPchan&#34;&gt;X&lt;/a&gt;か&lt;a href=&#34;https://marshmallow-qa.com/qeesq0ftfry6tne&#34;&gt;マシュマロ&lt;/a&gt;に送ってください。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QMA 黄金の道標の最終盤から新作稼働まで</title>
+      <link>https://blog.cppp-cpchan.org/posts/qma/qma-%E9%BB%84%E9%87%91%E3%81%AE%E9%81%93%E6%A8%99%E3%81%AE%E6%9C%80%E7%B5%82%E7%9B%A4%E3%81%8B%E3%82%89%E6%96%B0%E4%BD%9C%E7%A8%BC%E5%83%8D%E3%81%BE%E3%81%A7/</link>
+      <pubDate>Wed, 24 Sep 2025 10:00:00 +0900</pubDate>
+      <guid>https://blog.cppp-cpchan.org/posts/qma/qma-%E9%BB%84%E9%87%91%E3%81%AE%E9%81%93%E6%A8%99%E3%81%AE%E6%9C%80%E7%B5%82%E7%9B%A4%E3%81%8B%E3%82%89%E6%96%B0%E4%BD%9C%E7%A8%BC%E5%83%8D%E3%81%BE%E3%81%A7/</guid>
+      <description>&lt;h1 id=&#34;qma新作告知&#34;&gt;QMA、新作告知&lt;/h1&gt;
+&lt;p&gt;9/10, QMAの新作「緋のアルカディア」（あけのあるかでぃあ？）の稼働が決定したとニュースがありました。&lt;/p&gt;
+&lt;p&gt;個人的には、配信で言っていたように「そろそろ新作が来る」と思っていたので、新作稼働自体は意外ではありませんでした。
+配信内で言っていた理由としては、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全国大会のシンフォニア杯がラストっぽいこと
+（スタンプが過去3回の意匠を繋げたやつであるなど）&lt;/li&gt;
+&lt;li&gt;ソロクエの220F到達者が&amp;quot;完走&amp;quot;と思われる通り名を入手していたこと&lt;/li&gt;
+&lt;li&gt;ジャンルイベントや検定イベントの区切りがついたこと
+など、いかにもバージョン終盤であることが匂わされていたためです。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;しぴちゃんは、稼働ニュースを見て「神アプデきたな」&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://x.com/CPPP_CPchan/status/1965746427134611883&#34;&gt;https://x.com/CPPP_CPchan/status/1965746427134611883&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;「ソロクエは続投か」「ソロクエ220は流石に間に合わねえな」&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://x.com/CPPP_CPchan/status/1965746689110888885&#34;&gt;https://x.com/CPPP_CPchan/status/1965746689110888885&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://x.com/CPPP_CPchan/status/1965746853733122154&#34;&gt;https://x.com/CPPP_CPchan/status/1965746853733122154&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;とか言っていました。
+「ソロクエ220は流石に間に合わねえな」とか言いつつ、個人的には10月初旬くらいが稼働日と予想していたので、ワンチャン220Fまで完走できないかなと思ってソロクエをちまちまやろうとしていました。&lt;/p&gt;
+&lt;h1 id=&#34;突然の新作稼働日決定&#34;&gt;突然の新作稼働日決定&lt;/h1&gt;
+&lt;p&gt;その後、特にニュースもないまま一週間ほどが経ち、9/17に突然稼働日が9/24と宣言されました。
+&lt;a href=&#34;https://x.com/QMA_staff/status/1968247080591520169&#34;&gt;https://x.com/QMA_staff/status/1968247080591520169&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;結構びっくりしました。最近のゲームの新作は、新作の告知が出てから稼働までに、nintendo directのような宣伝で新要素やティザーPVが出るものだと思っていたからです。&lt;/p&gt;
+&lt;p&gt;QMAにそんな予算はなさそうだし、クイズの更新と稼働継続を頑張ってくれれば満足ではあるんですが、さすがにもうちょっとなんか宣伝することないのか？キャラチャンジ自由なこと以外に新要素ほとんどないのか？など思っていました。
+（それでも、キャラチャンジ自由なことは引き継ぎ項目にこっそり書いてあるだけだったので、もっと宣伝しろよ！とは思います）&lt;/p&gt;
+&lt;img src=&#34; https://blog.cppp-cpchan.org/images/2025/09/24/img_20250924103734.png&#34; alt=&#34;公式の引き継ぎ項目一覧&#34;&gt;
+&lt;p&gt;公式（ &lt;a href=&#34;https://p.eagate.573.jp/game/qma/19/&#34;&gt;https://p.eagate.573.jp/game/qma/19/&lt;/a&gt; ）にあった引き継ぎ項目一覧。
+キャラチェンジが自由になることがしれっと書いてある。一応青字ではある。&lt;/p&gt;
+&lt;p&gt;この内容から、トーナメント、ソロクエスト、リコードアリーナ、マジックコロシアムあたりのモードはあんまり変化していなそうであることが伺えます。どうなるか楽しみですね。&lt;/p&gt;
+&lt;p&gt;（9/24 10:30 JST 現在、もう稼働開始しているはずですがまだコナステの画像は黄金の道標だし、公式HPには引き継ぎ内容しか出てません。大丈夫？？？）&lt;/p&gt;
+&lt;p&gt;その頃しぴちゃんは、軽く計算してギリギリソロクエスト完走が間に合いそうという結論になったので、ソロクエを爆走し始めました。ソロクエ爆走の詳細と、次の記事で書こうと思います。&lt;/p&gt;
+&lt;h1 id=&#34;新作に期待すること&#34;&gt;新作に期待すること&lt;/h1&gt;
+&lt;p&gt;以下、しぴちゃんが新作に期待することを書いていきます。
+新作稼働日に書いていますが、まだプレーしてないので好きなこと書けるうちに書いてしまおうという算段です。&lt;/p&gt;
+&lt;h3 id=&#34;プレイアブルキャラクターの増加&#34;&gt;プレイアブルキャラクターの増加&lt;/h3&gt;
+&lt;p&gt;キャラクターチェンジが自由になるっぽいし、グリムが使えるようになると思われるのでたぶん達成されるはずですね。
+そもそも声優に超金かかってるキャラゲーで、キャラチェンジのためにカードを購入しないといけなかった従来のシステムが現代的でなかった気がします。&lt;/p&gt;
+&lt;p&gt;寸劇も増えるかもしれませんね。無理しない程度に期待しています。
+あとグリムにも着せ替えください。&lt;/p&gt;
+&lt;h3 id=&#34;それなりに継続的なイベントの開催&#34;&gt;それなりに継続的なイベントの開催&lt;/h3&gt;
+&lt;p&gt;前作（黄金の道標）と同じ感じで割と満足しています。検定協力はたぶん初のイベントだったと思いますが、結構好きでした。苦手検定でも意外となんとかなります。
+スケジュールはもうちょっとなんとかしてほしかったけど。&lt;/p&gt;
+&lt;h3 id=&#34;キャラクターチェンジが自由になることを活かしたイベントの開催&#34;&gt;キャラクターチェンジが自由になることを活かしたイベントの開催&lt;/h3&gt;
+&lt;p&gt;タイトルの通りです。配信では、オシャレ枠を廃止して、毎月キャラごとにオシャレ上位に（キャラ）グランドマスターとか（キャラ）マスターとかの枠をつけたらいいんじゃね？とか言いました。&lt;/p&gt;
+&lt;h3 id=&#34;クイズの更新&#34;&gt;クイズの更新&lt;/h3&gt;
+&lt;p&gt;タイトルの通りです。検定どうなるんだろうね。&lt;/p&gt;
+&lt;h3 id=&#34;不具合やゲーム体験バランスの改善&#34;&gt;不具合やゲーム体験、バランスの改善&lt;/h3&gt;
+&lt;p&gt;全体としてはあんまり文句ないんですけど、黄金の道標最終時点で改善してほしかった点は以下の通りです。
+ポイントはいっぱいあるけど、文句があるというよりは更新でどれくらい直ってるかな〜くらいの気分のやつです。&lt;/p&gt;
+&lt;h5 id=&#34;マジコロ&#34;&gt;マジコロ&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;FEVERすると背景がエンコ殺しになって、コナステの画質が劣悪になる問題&lt;/li&gt;
+&lt;li&gt;3人協力クイズの一部で、正解しても3人分しかAPが貯まらないバグ&lt;/li&gt;
+&lt;li&gt;マジコロの残りHPがわずかのとき、あまりにも残量がわかりにくい問題&lt;/li&gt;
+&lt;li&gt;クロノマンサーが弱すぎる
+あたりを修正してほしいかなあ。協力プレーにはあんまり不具合ないと思う。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;検定&#34;&gt;検定&lt;/h5&gt;
+&lt;p&gt;アーカイブ検定解禁が重すぎる。特にライトユーザーが最初に遊びたい検定を遊ぶために謎の知らん検定を15000ptも取る必要があるのはさすがにモチベなくなる。
+個人的には、5000ptに戻すか、15000ptは据え置きでもいいからキャラクリ時にアーカイブポイントがMAXで始まるようにしてくれれば満足。&lt;/p&gt;
+&lt;h5 id=&#34;登竜門&#34;&gt;登竜門&lt;/h5&gt;
+&lt;p&gt;OXのSSS難易度がおかしい。☆1の素点を40から四択と同じ45にしてくれれば解決する。&lt;/p&gt;
+&lt;h5 id=&#34;トリクロ&#34;&gt;トリクロ&lt;/h5&gt;
+&lt;p&gt;COMがお互いのチームにいる場合、COMの正解数をもう少し均一にすべき。
+特に超速OXはソロだと全問正解しても勝てないことすら稀にある。&lt;/p&gt;
+&lt;h5 id=&#34;ソロクエ&#34;&gt;ソロクエ&lt;/h5&gt;
+&lt;p&gt;不具合は特にないが、調整不足が目立つ。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lvが上がらなすぎるし、上げても強くなってる感がなさすぎる。&lt;/li&gt;
+&lt;li&gt;フロアが進んでも数値が増えるだけで、ゲーム性に変化がない。&lt;/li&gt;
+&lt;li&gt;100F以降、装備のステータス上昇量がしょぼすぎる。&lt;/li&gt;
+&lt;li&gt;アイテムの盾（防御UP）が弱すぎる。効果が実感できない。&lt;/li&gt;
+&lt;li&gt;あと一発で倒せるかどうかが本当にわからない。ミリ残しが頻発する。
+最後のは見た目の問題だけど。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;全国大会&#34;&gt;全国大会&lt;/h5&gt;
+&lt;p&gt;深夜でCOMが入ったほうが有利になるルールで本当に良かったんですか？&lt;/p&gt;</description>
+    </item>
     <item>
       <title>しぴちゃんブログ開設</title>
-      <link>http://localhost:1313/posts/%E3%81%97%E3%81%B4%E3%81%A1%E3%82%83%E3%82%93%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/</link>
+      <link>https://blog.cppp-cpchan.org/posts/%E3%81%97%E3%81%B4%E3%81%A1%E3%82%83%E3%82%93%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/</link>
       <pubDate>Thu, 18 Sep 2025 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/%E3%81%97%E3%81%B4%E3%81%A1%E3%82%83%E3%82%93%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/</guid>
+      <guid>https://blog.cppp-cpchan.org/posts/%E3%81%97%E3%81%B4%E3%81%A1%E3%82%83%E3%82%93%E3%83%96%E3%83%AD%E3%82%B0%E9%96%8B%E8%A8%AD/</guid>
       <description>&lt;h1 id=&#34;あいさつ&#34;&gt;あいさつ&lt;/h1&gt;
 &lt;p&gt;しぴぴぴ！バーチャルストリーマーのしぴちゃんです。&lt;/p&gt;
 &lt;p&gt;個人サイト &lt;a href=&#34;https://www.cppp-cpchan.org&#34;&gt;www.cppp-cpchan.org&lt;/a&gt; を開始して、せっかくなのでブログも始めました。&lt;/p&gt;
 &lt;p&gt;ブログは2個あるのですが、真面目な技術的な話は&lt;a href=&#34;https://note.com/cppp_cpchan/&#34;&gt;note&lt;/a&gt;で、配信の話とかゲームの話をこっちでして行こうかなと思います。
 とりあえずこのブログは自分で全部作った（コーディングは割とAIだけど）ので、その技術的詳細をnoteの方に書こうかな。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blog.cppp-cpchan.org/posts/template/template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blog.cppp-cpchan.org/posts/template/template/</guid>
+      <description>&lt;h1 id=&#34;あいさつ&#34;&gt;あいさつ&lt;/h1&gt;
+&lt;p&gt;しぴぴぴ！バーチャルストリーマーのしぴちゃんです。&lt;/p&gt;
+&lt;p&gt;このブログにはコメント欄がありません。コメントは&lt;a href=&#34;https://x.com/CPPP_CPchan&#34;&gt;X&lt;/a&gt;か&lt;a href=&#34;https://marshmallow-qa.com/qeesq0ftfry6tne&#34;&gt;マシュマロ&lt;/a&gt;に送ってください。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
