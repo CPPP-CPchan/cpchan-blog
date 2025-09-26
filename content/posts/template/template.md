@@ -1,7 +1,7 @@
 ---
 title:
-date: "{{date}}T{{time}}:00+0900"
-draft: false
+"#date": "{{date}}T{{time}}:00+0900"
+draft: true
 tags:
 categories:
 ---
