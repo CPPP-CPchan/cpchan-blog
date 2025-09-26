@@ -87,6 +87,7 @@ categories:
 
 	![難易度表](https://lh3.googleusercontent.com/d/1irYCS8RkJR-ufGVyrQIjqxyYcqvhiE1J)
 	80では難易度は変わらないらしい。バグか仕様かは不明。
+	
 	9/27 0:05、BIGINNERが修正されていた。
 	
 * ヒント（お助けアイテムの本）が最初に5個支給される。補充はされない。
