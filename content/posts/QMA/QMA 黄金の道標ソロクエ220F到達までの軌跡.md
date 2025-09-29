@@ -57,4 +57,6 @@ categories:
 
 220Fのボスは「エニグマデウス・冥獄」でした。エニグマデウスくんの色違い…ですね。215Fで倒したやつが地獄で復活したってことですかね？
 
+
+---
 このブログにはコメント欄がありません。コメントは[X](https://x.com/CPPP_CPchan)か[マシュマロ](https://marshmallow-qa.com/qeesq0ftfry6tne)に送ってください。
