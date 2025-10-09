@@ -25,14 +25,14 @@
             "id": "1c53957cc1088c9f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "QMA/QMA ソロクエスト+の感想・攻略情報.md",
-                "mode": "source",
-                "source": false
+                "aFile": "content/posts/mahjong/最近のしぴちゃん（10月上旬）.md",
+                "bFile": "content/posts/mahjong/最近のしぴちゃん（10月上旬）.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "QMA ソロクエスト+の感想・攻略情報"
+              "icon": "diff",
+              "title": "Diff: 最近のしぴちゃん（10月上旬）"
             }
           }
         ],
