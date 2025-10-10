@@ -11,14 +11,14 @@
             "id": "d4d1e4271e0b8aa8",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "content/posts/mahjong/最近のしぴちゃん（10月上旬）.md",
-                "bFile": "content/posts/mahjong/最近のしぴちゃん（10月上旬）.md",
-                "aRef": ""
+                "file": "others/最近のしぴちゃん（10月上旬）.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 最近のしぴちゃん（10月上旬）"
+              "icon": "lucide-file",
+              "title": "最近のしぴちゃん（10月上旬）"
             }
           }
         ]
