@@ -43,6 +43,8 @@ categories:
 
 ### アーカイブ検定が期間限定に
 
+非ランキング検定のアーカイブ検定が期間限定になりました。最初の5個は12/1の朝にプレー不可になりそうです。
+
 
 
 このブログにはコメント欄がありません。コメントは[X](https://x.com/CPPP_CPchan)か[マシュマロ](https://marshmallow-qa.com/qeesq0ftfry6tne)に送ってください。
