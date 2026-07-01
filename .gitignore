@@ -17,5 +17,23 @@ _site/
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
 
-#keyfile
-.pem
+# keys
+.env
+*.pem
+*.key
+id_rsa
+
+# OS-related junks
+.DS_Store
+Thumbs.db
+
+# dependency/builds
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+
+# logs/DB
+*.log
+*.sqlite3
