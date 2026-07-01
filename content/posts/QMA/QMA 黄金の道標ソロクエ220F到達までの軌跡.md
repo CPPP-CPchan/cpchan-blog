@@ -73,4 +73,4 @@ categories:
 完走した感想ですが、稼働日決定急すぎるだろ。早く告知したら今作もういいやになる人が多いだろうから運営の気持ちはわかるけど、追い込みする人にはプランがあるねん…
 
 ---
-このブログにはコメント欄がありません。コメントは[X](https://x.com/CPPP_CPchan)か[マシュマロ](https://marshmallow-qa.com/qeesq0ftfry6tne)に送ってください。
+コメントは[X](https://x.com/CPPP_CPchan)か[マシュマロ](https://marshmallow-qa.com/qeesq0ftfry6tne)でも募集中です。

@@ -121,6 +121,6 @@ https://docs.google.com/spreadsheets/d/1inLbdMB0QtrqWx9mTGG2F8r9MjmlfskVAM-seefo
 リスナーに検帝の人がいましたが、ちょいちょい新規の問題が入ってるらしいので前作プレイヤーもちゃんと楽しめるかも。
 
 ---
-このブログにはコメント欄がありません。コメントは[X](https://x.com/CPPP_CPchan)か[マシュマロ](https://marshmallow-qa.com/qeesq0ftfry6tne)に送ってください。
+コメントは[X](https://x.com/CPPP_CPchan)か[マシュマロ](https://marshmallow-qa.com/qeesq0ftfry6tne)でも募集中です。
 
 検証してほしい事項も募集しています。

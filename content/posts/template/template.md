@@ -9,6 +9,5 @@ categories:
 
 しぴぴぴ！バーチャルストリーマーのしぴちゃんです。
 
-
-
-このブログにはコメント欄がありません。コメントは[X](https://x.com/CPPP_CPchan)か[マシュマロ](https://marshmallow-qa.com/qeesq0ftfry6tne)に送ってください。
+---
+コメントは[X](https://x.com/CPPP_CPchan)か[マシュマロ](https://marshmallow-qa.com/qeesq0ftfry6tne)でも募集中です。
