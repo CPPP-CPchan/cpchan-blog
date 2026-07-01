@@ -1,0 +1,78 @@
+baseURL = "https://blog.cppp-cpchan.org"
+languageCode = "ja"
+title = "しぴちゃんのブログ"
+theme = "PaperMod"
+
+[params]
+author = "しぴちゃん"
+description = "猫耳VTuber、ゆるっとゲームやってます"
+defaultTheme = "light"
+ShowReadingTime = false
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+
+  [params.profileMode]
+  enabled = true
+  title = "しぴちゃんのブログ"
+  subtitle = "ゲーム、配信、日常のことを書いていきます"
+  imageUrl = "/images/cpchan.png"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "しぴちゃん"
+
+  [[params.socialIcons]]
+  name = "YouTube"
+  url = "https://youtube.com/@CP-chan"
+
+  [[params.socialIcons]]
+  name = "Twitter"
+  url = "https://x.com/CPPP_CPchan"
+
+  [[params.socialIcons]]
+  name = "home"
+  url = "https://www.cppp-cpchan.org"
+  title = "メインサイト"
+
+[[menu.main]]
+identifier = "posts"
+name = "記事"
+url = "/posts/"
+weight = 20
+
+[[menu.main]]
+identifier = "categories"
+name = "カテゴリ"
+url = "/categories/"
+weight = 30
+
+[[menu.main]]
+identifier = "tags"
+name = "タグ"
+url = "/tags/"
+weight = 40
+
+[[menu.main]]
+identifier = "main-site"
+name = "メインサイト"
+url = "https://www.cppp-cpchan.org"
+weight = 50
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNos = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[taxonomies]
+category = "categories"
+tag = "tags"
