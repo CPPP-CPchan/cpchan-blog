@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "ポケモンZA レビュー"
             }
+          },
+          {
+            "id": "c7b5eb41265bca0a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d4d1e4271e0b8aa8",
+  "active": "c7b5eb41265bca0a",
   "lastOpenFiles": [
     "review/ドンキーコングバナンザ レビュー.md",
     "review/ポケモンZA レビュー.md",
