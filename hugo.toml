@@ -76,3 +76,7 @@ home = [ "HTML", "RSS", "JSON" ]
 [taxonomies]
 category = "categories"
 tag = "tags"
+
+[services]
+  [services.disqus]
+    shortname = "cppp-cpchan"
