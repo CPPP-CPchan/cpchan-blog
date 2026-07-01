@@ -10,6 +10,20 @@ _site/
 # Additional Ruby/bundler ignore for when you run: bundle install
 /vendor
 
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
+
 # Specific ignore for GitHub Pages
 # GitHub Pages will always use its own deployed version of pages-gem 
 # This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
