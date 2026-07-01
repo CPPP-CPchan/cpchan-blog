@@ -30,11 +30,23 @@
                 "currentVersion": "1.10.6"
               },
               "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "title": "リリースノート 1.10.6"
+            }
+          },
+          {
+            "id": "793098c193c0ff10",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "リリースノート 1.12.7"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,17 +195,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新規ベースを作成": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c7b5eb41265bca0a",
+  "active": "793098c193c0ff10",
   "lastOpenFiles": [
     "review/ドンキーコングバナンザ レビュー.md",
     "review/ポケモンZA レビュー.md",
