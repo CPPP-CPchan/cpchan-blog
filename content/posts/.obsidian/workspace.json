@@ -37,12 +37,14 @@
             "id": "793098c193c0ff10",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "template/template.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "リリースノート 1.12.7"
+              "icon": "lucide-file",
+              "title": "template"
             }
           }
         ],
@@ -207,13 +209,14 @@
   },
   "active": "793098c193c0ff10",
   "lastOpenFiles": [
+    "template/ゲームレビューのテンプレ.md",
+    "template/template.md",
     "review/ドンキーコングバナンザ レビュー.md",
+    "others/しぴちゃんブログ開設.md",
     "review/ポケモンZA レビュー.md",
     "review/ドンキーコングバナンザ レビューのコピー.md",
     "others/最近のしぴちゃん（2025年11月下旬）.md",
     "others/最近のしぴちゃん（2025年11月上旬）.md",
-    "template/ゲームレビューのテンプレ.md",
-    "template/template.md",
     "others/最近のしぴちゃん（2025年9月下旬）.md",
     "QMA/QMA 緋のアルカディア 日本地理検定の感想.md",
     "QMA/QMA ソロクエスト+の感想・攻略情報.md",
@@ -224,7 +227,6 @@
     "others/最近のしぴちゃん（2025年10月下旬）.md",
     "review",
     "QMA/QMA 黄金の道標の最終盤から新作稼働まで.md",
-    "others/しぴちゃんブログ開設.md",
     "mahjong",
     "無題のファイル.md",
     "others",
