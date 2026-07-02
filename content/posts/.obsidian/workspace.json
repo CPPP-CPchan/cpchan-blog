@@ -11,14 +11,14 @@
             "id": "d4d1e4271e0b8aa8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "tech/しぴブログにコメント欄をつけました.md",
-                "mode": "source",
-                "source": false
+                "aFile": "content/posts/tech/しぴブログにコメント欄をつけました.md",
+                "bFile": "content/posts/tech/しぴブログにコメント欄をつけました.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "しぴブログにコメント欄をつけました"
+              "icon": "diff",
+              "title": "Diff: しぴブログにコメント欄をつけました"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "d4d1e4271e0b8aa8",
   "lastOpenFiles": [
-    "others/しぴちゃんブログ開設.md",
     "tech/しぴブログにコメント欄をつけました.md",
+    "others/しぴちゃんブログ開設.md",
     "tech/無題のファイル.md",
     "template/ゲームレビューのテンプレ.md",
     "tech/template 1.md",
