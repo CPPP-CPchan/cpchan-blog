@@ -408,6 +408,62 @@ body:not(.dark) .post-entry {
   color: var(--text-color) !important;
 }
 
+/* detailsタグのスタイリング */
+details {
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 12px;
+  margin: 16px 0;
+  background: rgba(123, 93, 184, 0.03);
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--main-color);
+  padding: 8px 0;
+  user-select: none;
+  transition: color 0.2s;
+}
+
+details summary:hover {
+  color: var(--accent-color);
+}
+
+details[open] summary {
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 8px;
+}
+
+details > *:not(summary) {
+  margin: 8px 0;
+  margin-left: 16px;
+}
+
+details h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+details ul, details ol {
+  margin: 8px 0 8px 24px;
+}
+
+/* ダークモード対応 */
+body.dark details {
+  background: rgba(123, 93, 184, 0.1);
+  border-color: var(--border-color);
+}
+
+body.dark details summary {
+  color: var(--accent-color);
+}
+
+body.dark details[open] summary {
+  border-bottom-color: var(--border-color);
+}
 
 /* モバイル対応 */
 @media (max-width: 768px) {
