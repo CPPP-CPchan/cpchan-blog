@@ -1,7 +1,7 @@
 ---
 title: AI頼りでブログを開設する
-date: 2026-07-02T17:00:00+09:00
-draft: true
+date: 2026-08-14T19:00:00+09:00
+draft: false
 tags:
   - Hugo
   - GitHub_Pages
