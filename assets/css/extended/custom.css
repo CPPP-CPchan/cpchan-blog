@@ -7,6 +7,8 @@
   --text-secondary: #666;
   --border-color: #e1e1e1;
   --card-bg: #ffffff;
+  --link-color: #7b5db8;
+  --link-hover: #5c3f96;
 }
 
 /* 文字の読みやすさ改善 */
@@ -140,13 +142,17 @@ body {
   background: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* リンクカラーの統一 */
+/* リンクカラーの統一
+   リンク色は変数経由にして .dark と連動させる。
+   メインカラー(#7b5db8)は暗い背景の上ではコントラストが足りず、
+   アクセントカラー(#c5b3e6)は明るい背景の上で読めないため、
+   個別セレクタごとに色を書かずここで一元的に切り替える。 */
 a {
-  color: var(--main-color) !important;
+  color: var(--link-color) !important;
 }
 
 a:hover {
-  color: var(--accent-color) !important;
+  color: var(--link-hover) !important;
 }
 
 /* ボタンスタイルの統一 */
@@ -197,15 +203,17 @@ a:hover {
   color: white !important;
 }
 
-/* フッターの統一 */
+/* フッターの統一
+   背景が --border-color(#e1e1e1)なので、本文用の --text-secondary(#666)だと
+   コントラストが 4.39 しか出ない。フッター専用に濃い色を指定する。 */
 .footer {
   background: var(--border-color);
-  color: var(--text-secondary);
+  color: #5a5a5a;
   font-size: 0.9em;
 }
 
 .footer a {
-  color: var(--text-secondary) !important;
+  color: #5a5a5a !important;
 }
 
 /* ダークモード対応 - body.darkクラス使用 */
@@ -215,6 +223,8 @@ body.dark {
   --text-secondary: #b0b0b0;
   --border-color: #2a2a2a;
   --card-bg: #1a1a1a;
+  --link-color: #c5b3e6;
+  --link-hover: #d4c7ef;
   
   background-color: var(--bg-color) !important;
   color: var(--text-color) !important;
@@ -292,64 +302,28 @@ body.dark .post-tags a:hover {
   color: white !important;
 }
 
-/* システムの設定に基づくダークモード対応 - ただしサイトで明示的に設定されていない場合のみ */
-@media (prefers-color-scheme: dark) {
-  /* OSダークモード + サイト設定なし の場合のみ適用 */
-  body:not(.dark):not([class*="theme"]) {
-    --bg-color: #0f0f0f;
-    --text-color: #f0f0f0;
-    --text-secondary: #b0b0b0;
-    --border-color: #2a2a2a;
-    --card-bg: #1a1a1a;
-    
-    background-color: var(--bg-color) !important;
-    color: var(--text-color) !important;
-  }
-  
-  body:not(.dark):not([class*="theme"]) .main {
-    background-color: var(--bg-color) !important;
-  }
-  
-  body:not(.dark):not([class*="theme"]) .post-entry {
-    background: var(--card-bg) !important;
-    border-color: var(--border-color) !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
-  }
-  
-  body:not(.dark):not([class*="theme"]) .entry-header .entry-title {
-    color: var(--text-color) !important;
-  }
-  
-  body:not(.dark):not([class*="theme"]) .entry-content {
-    color: var(--text-secondary) !important;
-  }
-  
-  body:not(.dark):not([class*="theme"]) .entry-footer {
-    color: var(--text-secondary) !important;
-    border-top-color: var(--border-color) !important;
-  }
-  
-  body:not(.dark):not([class*="theme"]) .page-header h1 {
-    color: var(--text-color) !important;
-  }
-  
-  body:not(.dark):not([class*="theme"]) .breadcrumbs a {
-    color: var(--text-secondary) !important;
-  }
-  
-  body:not(.dark):not([class*="theme"]) .post-content,
-  body:not(.dark):not([class*="theme"]) .post-content p {
-    color: var(--text-color) !important;
-  }
-  
-  body:not(.dark):not([class*="theme"]) .post-content h1,
-  body:not(.dark):not([class*="theme"]) .post-content h2,
-  body:not(.dark):not([class*="theme"]) .post-content h3,
-  body:not(.dark):not([class*="theme"]) .post-content h4,
-  body:not(.dark):not([class*="theme"]) .post-content h5,
-  body:not(.dark):not([class*="theme"]) .post-content h6 {
-    color: var(--text-color) !important;
-  }
+/* OSのダークモード追従は PaperMod 本体の defaultTheme = "auto" に任せる。
+   (hugo.toml) OSがダークなら PaperMod のスクリプトが body に .dark を付けるので、
+   下の body.dark 用ルールがそのまま効く。
+   ここで @media (prefers-color-scheme: dark) を使って個別セレクタの色を
+   上書きすると、「.dark が付いていないのに文字色だけ明るい」状態が生まれ、
+   PaperMod 側の変数(--code-bg など)がライト値のまま残る要素が
+   ホワイトアウトする。同じ轍を踏まないこと。 */
+
+/* 配色の唯一の情報源を body.dark クラスに統一する。
+   PaperMod は defaultTheme=auto のとき :root に prefers-color-scheme 用の
+   ダーク変数を出力するが、これはユーザーが明示的にライトを選んだ場合にも
+   効いてしまうため、ライト時は変数をライト値に固定して打ち消す。 */
+body:not(.dark) {
+  --theme: rgb(255, 255, 255);
+  --entry: rgb(255, 255, 255);
+  --primary: rgb(30, 30, 30);
+  --secondary: rgb(108, 108, 108);
+  --tertiary: rgb(214, 214, 214);
+  --content: rgb(31, 31, 31);
+  --code-block-bg: rgb(28, 29, 33);
+  --code-bg: rgb(245, 245, 245);
+  --border: rgb(238, 238, 238);
 }
 
 /* ライトテーマが明示的に設定されている場合は強制的にライト設定を適用 */
@@ -359,6 +333,8 @@ body:not(.dark) {
   --text-secondary: #666;
   --border-color: #e1e1e1;
   --card-bg: #ffffff;
+  --link-color: #7b5db8;
+  --link-hover: #5c3f96;
 }
 
 /* ライトモード時の明示的な設定 */
@@ -476,4 +452,86 @@ body.dark details[open] summary {
     white-space: nowrap;
   }
 }
-B
+
+/* ============================================================
+   コードのホワイトアウト対策
+   インラインコードは背景を PaperMod の --code-bg から取る一方、文字色は
+   本文からの継承に頼っていたため、背景と文字色がちぐはぐな状態になると
+   「明るい背景に明るい文字」で読めなくなっていた。
+   背景とセットで文字色も必ず明示する。
+   ============================================================ */
+
+/* ライトモード（既定） */
+.post-content code,
+.post-content a code {
+  color: #2c2c2c;
+  background: var(--code-bg);
+}
+
+/* サイトのダークモード */
+body.dark .post-content code,
+body.dark .post-content a code {
+  color: #f0f0f0;
+  background: var(--code-bg);
+}
+
+/* コードブロック内は常に暗い背景なので明るい文字を維持 */
+.post-content pre code,
+body.dark .post-content pre code {
+  color: rgb(213, 213, 214);
+  background: var(--code-block-bg) !important;
+}
+
+/* ============================================================
+   コントラスト（背景色と文字色の組み合わせ）の明示
+   「背景は指定するが文字色は継承任せ」「文字色は指定するが背景は
+   テーマ変数任せ」という組み合わせが、モードによって破綻する。
+   固定色の背景を敷いている箇所は文字色も固定色で指定する。
+   ============================================================ */
+
+/* アクセント色(明るい紫)を背景に敷く要素は、常に濃い文字色 */
+.terms-tags a,
+.post-tags a,
+.btn:hover,
+.pagination .page-link:hover {
+  color: #2c2c2c !important;
+}
+
+/* ダークモードのタグは custom.css 側で暗い背景に差し替えているので明るい文字 */
+body.dark .terms-tags a,
+body.dark .post-tags a {
+  color: var(--text-color) !important;
+}
+
+/* ページネーションは PaperMod 側で背景が --primary(モードで反転)なので、
+   リンク色の一括指定(--main-color)を打ち消して反転色を使う */
+.pagination a {
+  color: var(--theme) !important;
+}
+
+/* 引用・表・TOC など PaperMod の変数で塗られる要素は、
+   .dark クラスと連動する変数側で面倒を見る（個別指定しない） */
+
+/* ============================================================
+   シンタックスハイライトの可読性
+   コードブロックの背景は両モードとも暗色。Chroma 既定のコメント色
+   (#6e738d)と行番号色はこの背景に対して 2.9〜3.8 しかコントラストが
+   出ないため、明るめに寄せる。
+   ============================================================ */
+.post-content .chroma .c,
+.post-content .chroma .ch,
+.post-content .chroma .cm,
+.post-content .chroma .c1,
+.post-content .chroma .cs,
+.post-content .chroma .cp,
+.post-content .chroma .cpf,
+.post-content .chroma .lnt,
+.post-content .chroma .ln {
+  color: #9aa1bd;
+}
+
+/* 前後記事ナビ: ダークモードでは背景が --code-bg(rgb(55,56,62))になるため、
+   PaperMod 既定の --secondary(rgb(155,156,157))ではコントラストが 4.25 と足りない */
+body.dark .paginav .title {
+  color: #b0b1b3;
+}

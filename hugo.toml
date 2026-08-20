@@ -6,7 +6,7 @@ theme = "PaperMod"
 [params]
 author = "しぴちゃん"
 description = "猫耳VTuber、ゆるっとゲームやってます"
-defaultTheme = "light"
+defaultTheme = "auto"
 comments = true
 ShowReadingTime = false
 ShowShareButtons = true
